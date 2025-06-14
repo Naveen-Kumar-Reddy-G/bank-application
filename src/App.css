@@ -1,0 +1,180 @@
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  border: 2px solid cornflowerblue;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  min-width: 300px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  color: darkblue;
+}
+
+.label {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  color: indigo;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.inputfield {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 6px;
+  margin-left: 30px;
+}
+
+.sbmt {
+  border: 2px solid cornflowerblue;
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: 120px;
+  font-size: larger;
+  color: cyan;
+  cursor: pointer;
+  background-color: darkslateblue;
+}
+
+.sbmt:hover {
+  background-color: aquamarine;
+  color: darkslateblue;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-form {
+  display: inline;
+  flex-wrap: wrap;
+  border: 2px solid cornflowerblue;
+  border-radius: 12px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.register-sbmt {
+  border: 2px solid cornflowerblue;
+  border-radius: 12px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  margin-left: 30px;
+  font-size: larger;
+  color: cyan;
+  background-color: darkslateblue;
+  cursor: pointer;
+}
+
+.bankinfo {
+  margin-top: 50px;
+  /* margin-left: 270px; */
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+}
+
+/* span {
+  border: 2px solid blue;
+  padding: 7px;
+  background-color: cyan;
+  border-radius: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: darkblue;
+} */
+
+span:hover {
+  background-color: darkblue;
+  color: cyan;
+}
+
+.actions-container {
+  margin: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid crimson;
+  border-radius: 40px;
+  background-color: lightcoral;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: darkred;
+  padding: 10px 35px;
+}
+
+li:hover {
+  background-color: darkred;
+  color: crimson;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: midnightblue;
+  font-weight: bold;
+}
+
+.deposit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: bold;
+  color: blue;
+}
+
+.button {
+  background-color: darkblue;
+  color: aqua;
+  border: 2px solid blueviolet;
+  padding: 5px 15px;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 30px;
+}
+
+button:hover {
+  color: darkblue;
+  background-color: cyan;
+}
